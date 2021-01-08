@@ -1,0 +1,14 @@
+worldguard-regiao: "regen" #NOME DA REGIÃO PARA REGENERAR OS BLOCOS
+regen: #O TEMPO DE REGENERAÇÃO ESTÁ EM SEGUNDOS
+  white-list: #LISTA DE BLOCOS REGENERÁVEIS NA 'worldguard-regiao'
+    COAL_ORE: 2
+    IRON_ORE: 3
+    GOLD_ORE: 4
+    LAPIS_ORE: 2
+    REDSTONE_ORE: 2
+    DIAMOND_ORE: 6
+    EMERALD_ORE: 7
+  black-list: #LISTA DE BLOCOS INQUEBRÁVEIS NA 'worldguard-regiao'
+    - STONE
+    - COBBLESTONE
+    - TNT

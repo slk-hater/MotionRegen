@@ -1,0 +1,6 @@
+name: MotionRegen
+version: ${project.version}
+main: br.motion.motionregen.Core
+api-version: 1.8.8
+depend: [WorldGuard, WorldEdit]
+authors: [slkhater, FalaHaTEr]
